@@ -13,7 +13,13 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar />
 			<Jumbotron />
+			<br />
+			<div className='d-flex flex-row mb-3 justify-content-center'>
 			<Cards />
+			<Cards />
+			<Cards />
+			</div>
+			<br />
 			<Footer />
 		</div>
 	);
